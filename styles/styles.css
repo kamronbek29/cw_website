@@ -1,0 +1,100 @@
+/* Index html styles */
+.gm-logo {height: 90px;}
+.logo {font-size: 48px; display: flex; flex-direction: column; text-align: center; justify-content: center;}
+
+body {margin: 0; padding: 0; font-size: 100%; font-family: 'Roboto', sans-serif;}
+
+nav {display: flex; height: 100px;}
+nav ul {display: flex; list-style: none; margin: 0; padding:0; margin-left:auto; margin-right: 100px;}
+nav a {color: white; text-decoration: none; text-transform: uppercase;}
+nav li {display: flex; justify-content: center; flex-direction: column; text-align: center; padding: 10px; margin-right: 10px;}
+nav h3:hover, footer a:hover, .active {color: #3957D4}
+
+h1, h2, h3, h4, h5, h6 {margin: 0; text-transform: uppercase; font-family: 'Oswald', sans-serif;}
+
+h1 {font-size: 600%; color: white;}
+h2 {font-size: 300%;}
+h3 {font-size: 150%;}
+h4 {font-size: 118%;}
+
+.screen1 {position: relative; margin-bottom: 100px;}
+.screen1-description {padding: 100px;}
+.screen1-row {display: flex; flex-wrap: wrap; justify-content: space-around;}
+.screen1-item {width: calc(33% - 160px); padding: 30px;}
+.screen1-item h3 {text-transform: uppercase;}
+.screen1-item p {font-size: 18px;}
+.screen1 h2 {text-align: center; margin: 15px 15px;}
+
+.screen2-menu {display: flex; margin-bottom: 100px; margin-left: 200px;}
+.screen2 h2 {padding-bottom: 50px;}
+.screen2 ul {display: flex; flex-wrap: wrap; padding: 0;}
+.screen2 ul li {list-style: none; padding-right: 20px; border-radius: 1px;}
+.screen2 ul li a{padding: 15px 80px; background-color: black; color: white; text-decoration: none; text-transform: uppercase;}
+
+.screen3 {display: flex;}
+.screen3-card {width: 33%; border: 2px solid black; border-radius: 5px; padding: 30px; margin: 30px;}
+.screen3-card-button {border-radius: 3px; border: 2px solid black; margin:5px; outline: none; cursor: pointer; padding: 14px 16px;
+    transition: 0.3s; width: 90%; background-color: black; color: white; text-transform: uppercase;}
+
+.screen4 {display: flex; justify-content: space-around; margin-top: 100px; margin-bottom: 100px;}
+
+.auto_button {margin-top: 40px; border: 2px solid black; color: white; padding: 15px 100px; text-align: center; display: inline-block;
+    font-size: 16px; border-radius: 50px; text-transform: uppercase; width: 120px; transition: 0.3s;}
+
+.auto_button:hover, .screen3-card-button:hover {color: black; background: #fff;}
+
+.container {width: 1366px; max-width: calc( 100% - 60px ); padding-right: 30px; padding-left: 30px; margin-left: auto; margin-right: auto;}
+.container_main {display: flex; flex-direction: column; height: 100%;}
+
+.cars {display: flex; margin-left: 50px;}
+
+.right_phone {display: flex;}
+.right_phone p {margin: 0;}
+
+.phone_call_header {display: flex; flex-direction: column; text-align: center; justify-content: center;}
+
+.main {display: flex; align-items: center; justify-content: center; margin-top: auto; margin-bottom: auto;}
+.main h1 {display: flex; justify-content: center; flex-direction: column; text-align: center;}
+.main_icons {display: flex; justify-content: center; flex-direction: column; margin-left: auto;}
+.main_icons img{width: 40px; margin-bottom: 25px;}
+
+.cotacts {padding: 0px 50px; width: 50%;}
+.cotacts h3, h4 {margin-top: 10px; margin-bottom:10px;}
+.cotacts h3 {margin-top: 20px;}
+
+footer {background-color: black; display: flex; height: 100px;}
+footer ul {margin: 0 auto; display: flex; margin: 0; padding:0; margin-left: 150px;}
+footer ul li {display: flex; justify-content: center; flex-direction: column; text-align: center; padding: 10px;}
+footer a {color: white; text-decoration: none; text-transform: uppercase;}
+footer p {margin-left: 100px; color: white;}
+footer .main_icons {margin-left: 100px;}
+footer .main_icons img {width: 40px; margin: 10px;}
+.footer-icon {flex-direction: row; align-items: center; justify-content: center;}
+
+/* About html styles */
+
+.description1 {display: flex; margin-right: 180px; margin-top: 20px; font-size: 17px; letter-spacing: normal;}
+.description1-img {width: 75%; margin-left: 100px;}
+
+.general-info {margin-left: 140px; font-size: 17px;}
+
+/* News html styles */
+
+.news-images {display: inline-block; flex-wrap: wrap; justify-content: space-around;}
+.news-images-item {width: 60%;}
+.recent-news {text-align: center; text-transform: uppercase; margin-top: 50px; margin-bottom: 50px;}
+.news-text {border: none; background: none; width: 100%; float: none; clear: both; padding: 25px 0px 25px; width: 50%;}
+.more, .dots {display: none;}
+
+/* Characteristics html */
+
+.flex-container {margin-top: 50px; width: 100%; text-align: center; display: flex; flex-flow: row nowrap;}
+.first {flex-grow: 3; margin-left: 100px;} 
+.second {flex-grow: 7; margin-right: 120px; text-align: left;}
+
+.cars-list {display: flex; flex-wrap: wrap;}
+.cars-list div {flex: auto; direction: column; width: 30%; margin-top: 50px; margin-right: 10px; outline: 2px solid #000; border: 15px solid #fff;}
+
+
+
+
